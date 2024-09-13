@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.welcome {
+    background-color: rgb(235, 234, 234);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
+}
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.barramento {
+    background-color: rgb(235, 234, 234);
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px; 
+    max-width: 250px; 
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+.infos a {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.infos a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
